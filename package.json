@@ -1,0 +1,36 @@
+{
+  "name": "my-choice",
+  "displayName": "My Choice Color Theme",
+  "description": "This theme extension is designed to improve the readability and structure of HTML, CSS, and JavaScript code by enhancing syntax highlighting and visual clarity.",
+  "version": "0.0.1",
+  "publisher": "naitikbansal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naitikbansal-codes/my-choice-color-theme.git"
+  },
+  "homepage": "https://github.com/naitikbansal-codes/my-choice-color-theme",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "My Choice Color Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/my-choice-color-theme.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[My Choice Color Theme]": {
+        "editor.fontFamily": "Fira Code, JetBrains Mono, Consolas, Helvetica, monospace",
+        "editor.fontLigatures": true,
+        "editor.fontSize": 14,
+        "editor.renderLineHighlight": "line"
+      }
+    }
+  }
+}
